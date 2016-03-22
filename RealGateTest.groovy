@@ -3,7 +3,7 @@ import org.gradle.gates.*
 import spock.lang.*
 
 class RealGateTest extends Specification{
-	def "TestMethodAndGate"(){
+	def "Test Method And Gate"(){ 
 		
 		expect:
 		
@@ -19,7 +19,7 @@ class RealGateTest extends Specification{
 		0 | 0 | 0	
 	}
 	
-	def "TestMethodOrGate"(){
+	def "Test Method Or Gate"(){
 		
 		expect:
 		
@@ -36,7 +36,7 @@ class RealGateTest extends Specification{
 		
 	}
 	
-	def "TestMethodNotGate"(){
+	def "Test Method Not Gate"(){
 		expect:
 		def gate = new NotGate()
 		
@@ -50,7 +50,7 @@ class RealGateTest extends Specification{
 		0 | 1 | 1
 	}
 	
-	def "TestMethodNOrGate"(){
+	def "Test Method NOr Gate"(){
 		expect:
 		def gate = new NOrGate()
 		
@@ -65,7 +65,7 @@ class RealGateTest extends Specification{
 		
 	}
 	
-	def "TestMethodXOrGate"(){
+	def "Test Method XOr Gate"(){
 		expect:
 		def gate = new XOrGate()
 		
@@ -80,7 +80,7 @@ class RealGateTest extends Specification{
 		
 	}
 	
-	def "TestMethodNAndGate"(){
+	def "Test Method NAnd Gate"(){
 		expect:
 		def gate = new NAndGate()
 		
@@ -95,7 +95,7 @@ class RealGateTest extends Specification{
 		
 	}
 	
-	def "TestMethodXNOrGate"(){
+	def "Test Method XNOr Gate"(){
 		expect:
 		def gate = new XNOrGate()
 		
