@@ -3,6 +3,9 @@ import org.gradle.gates.*
 import spock.lang.*
 
 class RealGateTest extends Specification{
+	
+	
+	     //You can use spaces here inside the quotation marks, it makes it easier to read. 
 	def "Test Method And Gate"(){ 
 		
 		expect:
