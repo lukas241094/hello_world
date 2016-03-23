@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="org.gradle.AdderTest" tests="3" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="imc.uni-muenster.de" time="1.392310287839E9">
+  <properties/>
+  <testcase name="testFirst" classname="org.gradle.AdderTest" time="0.008"/>
+  <testcase name="testFF" classname="org.gradle.AdderTest" time="0.0"/>
+  <testcase name="testTF" classname="org.gradle.AdderTest" time="0.001"/>
+  <system-out><![CDATA[[false, false, true]
+[false, false, true]
+[false, false, true]
+[true, false, false]
+[true, false, false]
+[true, false, false]
+[false, true, false]
+[false, true, false]
+[false, true, false]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
